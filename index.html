@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SŁOWNIKOWO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="cal">
+        <div class="life"> POZOSTAŁO <a id="life">15</a> PRÓB </div>
+        <div id="wynik"></div>
+        <div class="box">
+            <div id="nad">
+
+            </div>
+            <div id="form">
+                <input type="text" name="" id="wyraz" placeholder="WPISZ WYRAZ" onkeydown="if(event.keyCode==12)
+                document.getElementById('button').click()">
+                <input type="button" value="SPRAWDŹ!" id="button" onclick="slowo()">
+            </div>
+            <div id="pod">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
